@@ -12,7 +12,7 @@ Consiste em uma plataforma de browser destinada a atender às necessidades da Em
 
 Serão testadas as seguintes funcionalidades pertencentes ao software web dos Correios: 
 
-- **Acompanhe seu objeto**: funcionalidade que permite ao usuário rastrear sua encomenda a partir de um código de rastreio ou seu próprio CPF.
+- **Login**: funcionalidade que permite ao usuário entrar em sua conta a partir de um usuário e senha.
 - **Busca CEP**: funcionalidade que permite obter um endereço a partir de um CEP, ou o contrário, obter um CEP a partir de um endereço inserido.
 - **Simulador de Preços e Prazos Nacionais**: funcionalidade que permite simular os preços e os prazos de entrega para uma encomenda enviada em solo nacional.
 - **Simulador de Preços e Prazos Internacionais**: funcionalidade que permite simular os preços e os prazos de entrega para uma encomenda enviada para territórios internacionais.
@@ -22,17 +22,15 @@ Serão testadas as seguintes funcionalidades pertencentes ao software web dos Co
 
 As tecnologias empregadas para testar as funcionalidades serão:
 
-- **.NET Framework**: framework da Microsoft que busca unificar todo o desenvolvimento em um único ambiente, será utilizado para a criação do projeto de testes automatizados assim como a implementação dos mesmos.
-- **Bogus Framework**: framework utilizado para gerar dados falsos que serão acoplados nos testes automatizados.
+- **pytest**: framework que facilita a escrita de testes pequenos e legíveis e pode ser dimensionada para dar suporte a testes funcionais complexos para aplicativos e bibliotecas.
 - **Selenium**: framework poderoso para execução de testes automatizados em interfaces web que, em conjunto com .NET Framework, implementará os testes descritos nos cenários de testes.
-- **HackMD**: plataforma onde serão escritos os cenários de testes, assim como todo o trabalho em .md.
 
 ## Cronograma
 
 | # | Funcionalidade                           | Data_Início | Data_Fim   | Responsável    |
 | - | ---------------------------------------- | ----------- | ---------- | -------------- |
-| 1 | Acompanhe seu Objeto (Rastreamento)      | 07/02/2022  | 11/02/2022 | Lucas Borges   |
-| 2 | Busca CEP                                | 14/02/2022  | 18/02/2022 | Abigail Arruda |
-| 3 | Simulador Preços e Prazos Nacionais      | 21/02/2022  | 25/02/2022 | Jacob Ferraz   |
-| 4 | Simulador Preços e Prazos Internacionais | 28/02/2022  | 04/03/2022 | Victor Melo    |
-| 5 | Busca Agências por Localidade            | 07/03/2022  | 11/03/2022 | Heitor Melo    |
+| 1 | Login                                    | 07/02/2022  | 05/04/2022 | Jacob Ferraz   |
+| 2 | Busca CEP                                | 14/02/2022  | 05/04/2022 | Heitor Melo    |
+| 3 | Simulador Preços e Prazos Nacionais      | 21/02/2022  | 05/04/2022 | Lucas Borges   |
+| 4 | Simulador Preços e Prazos Internacionais | 28/02/2022  | 05/04/2022 | Victor Melo    |
+| 5 | Busca Agências por Localidade            | 07/03/2022  | 05/04/2022 | Abigail Arruda |
